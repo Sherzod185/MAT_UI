@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #083142;
+}
+img {
+  width: 250px;
+  height: 300px;
+}
+.grid__block {
+  justify-content: space-between;
+  gap: 35px;
+  margin-top: 50px !important;
+  padding-bottom: 50px !important;
+  justify-content: center;
+}
+.card__block {
+  text-align: center;
+}
+h3 {
+  color: #fff;
+  margin-bottom: 5px;
+}
+.MuiRating-root {
+  padding: 3px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.995);
+}
+p {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+
+}
+.css-1oqqzyl-MuiContainer-root{
+  text-align: center;
+}
+.titleee{
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 400;
+letter-spacing: 2px;
+font-family: fantasy;
+color: rgba(255, 255, 255, 0.688);
+}
