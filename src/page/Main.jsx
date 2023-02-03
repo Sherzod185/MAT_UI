@@ -1,6 +1,7 @@
 import React from "react";
 import CardBlock from "../components/CardBlock";
 import Search from "../components/Search";
+import loading from "../img/loading.gif"
 class Main extends React.Component {
   state = {
     products: [],
@@ -22,7 +23,11 @@ class Main extends React.Component {
          .toLocaleLowerCase()
          .includes(this.state.searchHand.toLocaleLowerCase())
      );
-    return (
+    return this.state.products.length === 0 ? (
+      <div className="boxssss">
+        <img className="loadings" src={loading} alt="loading" />
+      </div>
+    ) : (
       <>
         <Search onSearch={this.onSearch} />
         <CardBlock productsu={filterProducts} />

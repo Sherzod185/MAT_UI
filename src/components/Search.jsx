@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Input } from "@mui/material";
 const Search = ({ onSearch }) => {
   return (
-    <Container>
+    <Container className="con">
       <h1 className="titleee">Product</h1>
       <Input
         sx={{

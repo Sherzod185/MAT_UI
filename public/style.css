@@ -38,7 +38,7 @@ p {
   margin-top: 3px;
 
 }
-.css-1oqqzyl-MuiContainer-root{
+.con{
   text-align: center;
 }
 .titleee{
@@ -48,4 +48,15 @@ p {
 letter-spacing: 2px;
 font-family: fantasy;
 color: rgba(255, 255, 255, 0.688);
+}
+.loadings{
+  width:800px;
+  height: 700px;
+margin-left: auto;
+margin-right: auto;
+}
+.boxssss{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
